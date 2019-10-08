@@ -1,22 +1,76 @@
+.App {
+  display: flex;
+}
+
 .container {
-    background-color: #c00025;
-    width: 100%;
-    max-width: 550px;
-    border-radius: 15px;
-    border: 2px solid grey;
-    padding-bottom: 25px;
+  background-color: #c00025;
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+  border: 2px solid grey;
+  padding-bottom: 25px;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
-    border-radius: 50px;
-    color: white;
-    background-color: #322c2d;
-    box-shadow: 1px 1px #322c2d;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
-  }
+  margin: 25px auto;
+  height: 100px;
+  width: 450px;
+  border-radius: 50px;
+  color: white;
+  background-color: #322c2d;
+  box-shadow: 1px 1px #322c2d;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 8%;
+  font-size: 5rem;
+}
+div.special-btn-container {
+  margin-left: 35px;
+  display: flex;
+}
+.special-btn-container button {
+  margin: 10px 45px 10px 0;
+  width: 85px;
+  height: 85px;
+  color: white;
+  background-color: #235d9e;
+  border-radius: 50%;
+  font-size: 3rem;
+  border: none;
+  box-shadow: 0 3px 3px black;
+}
+div.number-btn-container {
+  margin-left: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.number-btn-container button {
+  margin: 10px 45px 10px 0;
+  width: 85px;
+  height: 85px;
+  color: white;
+  background-color: #184379;
+  border-radius: 50%;
+  font-size: 3rem;
+  border: none;
+  box-shadow: 0 3px 3px black;
+}
+.number-btn-container button:nth-child(10) {
+  border-radius: 40px;
+  width: 215px;
+}
+div.operator-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.operator-btn-container button {
+  margin: 10px 45px 10px 0;
+  width: 85px;
+  height: 85px;
+  color: white;
+  background-color: #247293;
+  border-radius: 50%;
+  font-size: 3rem;
+  border: none;
+  box-shadow: 0 3px 3px black;
+}
