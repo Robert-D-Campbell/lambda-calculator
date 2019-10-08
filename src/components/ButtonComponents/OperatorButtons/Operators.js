@@ -9,7 +9,7 @@ export default function Operators(props) {
   // STEP 2 - add the imported data to state
   const [operatorState, setOperatorState] = useState(operators);
   return (
-    <div className="btn-container">
+    <div className="operator-btn-container">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/

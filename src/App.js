@@ -26,8 +26,10 @@ function App() {
       <Display display={displayState} />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Specials display={changeState} />
-        <Numbers display={changeState} />
+        <div className="spec-num-container">
+          <Specials display={changeState} />
+          <Numbers display={changeState} />
+        </div>
         <Operators display={changeState} />
       </div>
     </div>
